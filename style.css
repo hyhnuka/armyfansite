@@ -381,3 +381,36 @@ h1 {
 {
     animation: contentOut 1.5s linear 1 forwards!important;
 }
+
+.album1 {
+    position: relative;
+    height: 100vh; /* Menyesuaikan dengan tinggi layar */
+    background: url('asset/set.jpeg') no-repeat center center/cover;
+    color: #fff; /* Warna teks putih agar terlihat di atas background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.page1 {
+    background: rgba(199, 198, 198, 0.6); /* Latar belakang semi-transparan untuk meningkatkan keterbacaan */
+    width: 100%; /* Membuat lebar penuh */
+    height: 100%; /* Membuat tinggi penuh */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Agar konten tersusun secara vertikal */
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center; /* Memusatkan konten secara horizontal */
+    padding: 20px; /* Menambahkan sedikit padding agar konten tidak mepet */
+    box-sizing: border-box; /* Memastikan padding tidak menambah ukuran elemen */
+    border-radius: 10px;
+}
+
+.a-title {
+    font-size:1000%;
+    font-family: "Nanum Pen Script", cursive;
+    transition: width 2s
+    
+}
